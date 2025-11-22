@@ -11,6 +11,8 @@ evidently==0.4.36
 matplotlib==3.10.6
 deepchecks==0.19.1
 protobuf<5.0
+anywidget
+
 
 
 
