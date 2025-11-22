@@ -84,10 +84,11 @@ for n_tree in tqdm(n_trees):
         mlflow.log_metric("accuracy", acc)
 
         # Сохранение модели
-        mlflow.sklearn.log_model(rf_clf, name="model")
+        mlflow.sklearn.log_model(rf_clf, artifact_path="model")
 
 print("Эксперимент завершён и записан в MLflow")
 print(f"Accuracy: {acc:.4f}")
+
 
 
 
