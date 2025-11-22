@@ -27,4 +27,4 @@ jobs:
 
     - name: Run notebook
       run: |
-        jupyter nbconvert --to notebook --execute notebook.ipynb --output executed_notebook.ipynb
+        jupyter nbconvert --to notebook --execute HW5_Test_Mazurina_E_A.ipynb --output new_HW5_Test_Mazurina_E_A.ipynb
