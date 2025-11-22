@@ -30,7 +30,7 @@ jobs:
         jupyter nbconvert --to notebook --execute HW5_Test_Mazurina_E_A.ipynb --output new_HW5_Test_Mazurina_E_A.ipynb --stdout
 
     - name: Upload MLflow artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: mlruns
         path: mlruns
